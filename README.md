@@ -1,8 +1,5 @@
 # kernel-dynamic-stack-dumping
 
-System call implementation for DYNAMIC DUMP_STACK:
-==================================================
-
 This software is a patch for enhancing the kernel with dynamic dump_stack system calls.
 Two system calls are implemented:
 1) insdump, with system call number 359 - this system call expects the text symbol address and mode of operation (dumpmode) and returns a unique dumpid. dump_stack is inserted using kprobes before the symbol and the dumpid is returned

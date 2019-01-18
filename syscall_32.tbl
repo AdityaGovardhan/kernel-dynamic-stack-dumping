@@ -1,0 +1,2 @@
+359	i386	insdump			sys_insdump
+360	i386	rmdump			sys_rmdump

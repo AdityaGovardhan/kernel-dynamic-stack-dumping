@@ -1,0 +1,9 @@
+menu "dynamic dump_stack"
+
+config DYNAMIC_DUMP_STACK
+	bool "enable dynamic insertion of dump_stack (CONFIG_DYNAMIC_DUMP_STACK)"
+	default y
+	help
+		Enable this option to enable dynamic dump stack system
+		call at desired address without modifying the kernel code
+endmenu # dynamic dump_stack
